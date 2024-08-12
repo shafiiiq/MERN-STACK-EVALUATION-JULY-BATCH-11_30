@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.banner{
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+}
+
+.left>button{
+  background:transparent;
+}
+
+.search{
+  border-radius: 40px 0px 0px 40px;
+  width: 400px;
+  height: 40px;
+  padding: 0px 4px 0px 16px;
+  border: 1px solid #d3d3d3;
+}
+
+.left{
+  display: flex;
+
+}
+
+.mid{
+  display: flex;
+  align-items: center;
+}
+
+.right{
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  height: 90%;
+  background-color: yellow;
+  display: flex;
+}
+
+.sidebar{
+  width: 5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.sidebar > button{
+  width: 70px;
+  height: 74px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  
+  
+
+}
+
+.sidebar > button:hover{
+  background-color: #d3d3d3;
+}
+
+.sidebar button span{
+  font-size: 10px;
+}
+
+.home{
+  
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  /* margin-top: 80px;   */
+}
+
+.topslide{
+  background-color: white;
+  display: flex;
+  
+  /* padding: 0px 24px; */
+  width: 100vw;
+  height: 50px;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  gap: 10px;
+  
+  text-overflow: clip;
+  
+}
+
+.topslide a{
+  display: inline-block;
+  padding: 10px 12px 10px 12px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  margin: 10px 12px 12px 0px;
+  height: 40px;
+  background-color: #0000000D;
+  border-radius: 10px;
+     
+}
+
+.topslide::-webkit-scrollbar{
+  
+  display: none;
+} 
+
+.topslide a:hover{
+  color: black;
+  background-color: #2a26262b;
+}
+
+
+.home_bottom{
+  background-color: aqua;
+}
+
+.row1{display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  background-color: violet;
+  
+}
+
+
+.first{
+  width: 300px;
+  height: 200px;
+  gap: 30px;
+  margin-bottom: 100px;
+  
+}
+
+.descript{
+  margin-bottom: 0;
+  display: flex;
+   gap: 10px; 
+  
+  
+  
+}
+
+.title{
+  text-align: center;
+  align-items: center;
+  padding: 10px 0px 0px 0px;
+  margin-bottom: 0;
+  width: 240px;
+  text-align: start;
+  
+}
+
+.channel{
+  padding-left: 45px;
+  margin-bottom: 0;
+}
+
+.view{
+  padding-left: 45px;
+  
+}
+
+#explore{
+  padding-left: 10px;
+}
