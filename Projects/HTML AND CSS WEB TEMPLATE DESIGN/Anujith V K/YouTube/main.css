@@ -1,0 +1,55 @@
+.contplacer{
+    
+    display:none;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 25px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    }
+
+    .shortp{
+        display:none;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .top{
+        overflow-y: hidden;
+        overflow-x: scroll;
+        display:none;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        gap: 3px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        /* overflow-y: flex;    */
+        
+    }
+    .liked{
+       overflow: auto;
+        height: 100vh;
+        display:none; 
+    }
+
+    .submain{
+        overflow-y: scroll;
+    flex-direction: column;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        /* background-color: aqua; */
+
+    }
+
+    .youlib
+    {
+        display:none;
+        flex-direction: column;
+        /* background-color: aqua; */
+        width: 100%;
+        height: 100%;
+    }
