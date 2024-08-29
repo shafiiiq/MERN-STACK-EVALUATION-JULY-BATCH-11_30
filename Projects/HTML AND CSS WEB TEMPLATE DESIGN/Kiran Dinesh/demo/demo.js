@@ -37,7 +37,7 @@ function shorts() {
   youContainer.style.display='none';
 }
 function home() {
-
+  var homeImg=document.getElementById('homeImg')
   video_grid.style.display = 'grid';
   scrollMenu.style.display = 'flex';
   shortContainer.style.display = 'none';
